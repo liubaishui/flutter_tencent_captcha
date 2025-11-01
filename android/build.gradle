@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 28
 
+    namespace 'org.leanflutter.plugins.flutter_tencent_captcha'
+
     defaultConfig {
         minSdkVersion 16
     }
